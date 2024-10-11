@@ -1,0 +1,355 @@
+header h3 {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    top:50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 10px;
+    float: right;
+}
+
+ul {
+    list-style: none;
+    padding-right: 30px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    top:50%;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+.container1 {
+    position: relative;
+    background-color: black;
+padding-top:-70px;
+margin-top:30px;
+}
+
+.container1 img {
+
+    height:500px;
+    border:0px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding-top: 40px;
+    float: right;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.text-overlay h3 {
+    color: orange;
+    font-size: 20px;
+}
+
+.text-overlay p {
+    font-weight: lighter;
+}
+
+.text-overlay a {
+    color: salmon;
+}
+
+.button {
+    color: white;
+    font-weight: lighter;
+    background-color: #333;
+}
+
+.container-2 {
+    display: flex;
+    gap:30px;
+    background-color: red;
+    height:250px;
+    margin:0;
+    align-items: center;
+    padding-bottom:0px;
+    
+
+}
+.IC{
+    display: flex;
+    margin-left:240px ;
+    gap: 20px;
+}
+
+.Icon1 {
+    padding: 20px;
+    padding-top: 10px;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #484a4c;
+    box-shadow: #f0f0f0;
+    width: 190px;
+    height: 200px;
+    color: blue;
+    border-radius: 50px;
+    margin-top:100px;
+
+}
+
+.Icon1 span {
+    font-size: 30px;
+    background-color: orangered;
+    
+}
+
+.Icon1 h3 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Icon1 p {
+    color: #333;
+    font-weight: lighter;
+}
+
+.Icon2 {
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 50px;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #484a4c;
+    box-shadow: #f0f0f0;
+    width: 190px;
+    height: 200px;
+    color: blue;
+    text-align: center;
+    margin-top:100px;
+}
+
+.Icon2 span {
+    background-color: orangered;
+    font-size: 30px;
+    
+}
+
+.Icon2 h3 {
+    color: black;
+
+}
+
+.Icon2 p {
+    color: #333;
+    font-weight: lighter;
+}
+
+.Icon3 {
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 1px;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #484a4c;
+    box-shadow: #f0f0f0;
+    width: 190px;
+    height: 200px;
+    color: blue;
+    text-align: center;
+    margin-top:100px;
+    border-radius: 50px;
+}
+
+.Icon3 span {
+    font-size: 30px;
+    background-color: orangered;
+}
+
+.Icon3 h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.Icon3 p {
+    color: #333;
+    font-weight: lighter;
+}
+
+
+.Icon4 {
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 1px;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #484a4c;
+    box-shadow: #f0f0f0;
+    width: 190px;
+    height: 200px;
+    color: blue;
+    text-align: center;
+    margin-top:100px;
+    border-radius: 50px;
+}
+
+.Icon4 span {
+    font-size: 30px;
+    background-color: orangered;
+}
+
+.Icon4 h3 {
+    color: black;
+    font-weight: bolder;
+}
+
+.Icon4 a {
+    color: #333;
+    font-weight: lighter;
+}
+
+.container3 {
+    max-width: 800px;
+    display: flex;
+    padding: 70px;
+    gap: 70px;
+    row-gap: 60px;
+
+
+
+
+
+}
+
+.left h1 {
+
+    color: black;
+
+}
+
+.left h3 {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.left p {
+    color: #333;
+}
+.Contact-form {
+    float: right;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+.social-media {
+    float: left;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+
+
+
+}
+
+.social-media a {
+    margin: 0 5px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    ;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+}
+
+.fa-instagram {
+    background: #125688;
+    ;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    float: left;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color:lightcoral;
+}
+button{
+    border-radius: 50px;
+}
